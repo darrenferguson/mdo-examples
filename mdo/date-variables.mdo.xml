@@ -1,0 +1,64 @@
+<batch>
+  <!-- Put the variables DateYear, DateMonth and DateDay in scope variables -->
+  <command
+    name="date">
+    <arg
+      name="-f"
+      value="yyyy" />
+    <arg
+      name="-v"
+      value="DateYear" />
+  </command>
+
+	<command
+    name="date">
+    <arg
+      name="-f"
+      value="MM" />
+    <arg
+      name="-v"
+      value="DateMonth" />
+  </command>
+
+  <command
+    name="date">
+    <arg
+      name="-f"
+      value="dd" />
+    <arg
+      name="-v"
+      value="DateDay" />
+  </command>
+
+<command
+    name="dvo-variable">
+    <arg
+      name="-s"
+      value="DateYear" />
+    <arg
+      name="-d"
+      value="DateYear" />
+  </command>
+
+<command
+    name="dvo-variable">
+    <arg
+      name="-s"
+      value="DateMonth" />
+    <arg
+      name="-d"
+      value="DateMonth" />
+  </command>
+
+<command
+    name="dvo-variable">
+    <arg
+      name="-s"
+      value="DateDay" />
+    <arg
+      name="-d"
+      value="DateDay" />
+  </command>
+
+
+</batch>
