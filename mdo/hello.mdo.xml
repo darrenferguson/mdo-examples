@@ -1,0 +1,12 @@
+<batch>
+  <!--Moriyama Devops batch-->
+  <!--Command: echo-->
+  <command
+    name="echo">
+    <arg
+      name="-m"
+      value="hello world" />
+  </command>
+
+  
+</batch>
