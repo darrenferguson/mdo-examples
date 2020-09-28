@@ -1,0 +1,19 @@
+<batch>
+  <!--Moriyama Devops batch-->
+  <!--Command: dvo-ip (Get IP Address) -->
+  <command
+    name="dvo-ip">
+    <arg
+      name="-v"
+      value="IpAddress" />
+  </command>
+
+  <!-- Command: Echo out result -->
+  <command
+    name="echo">
+    <arg
+      name="-m"
+      value="IP Address: is #{IpAddress}" />
+  </command>
+
+</batch>
